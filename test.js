@@ -59,7 +59,7 @@ test(async (t) => {
     }
   )
 
-  await d.ggcorr(m, 'out-text.png')
+  await d.ggcorr(m, 'out-test.png')
 
   d.stop()
   t.end()
