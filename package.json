@@ -1,0 +1,30 @@
+{
+  "name": "r-driver",
+  "version": "0.0.0",
+  "description": "Talk to a subprocess running R",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx standard && npx tap --cov test*.js test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandhawke/r-driver.git"
+  },
+  "keywords": [
+    "sandhawke"
+  ],
+  "author": "Sandro Hawke (http://hawke.org/sandro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandhawke/r-driver/issues"
+  },
+  "homepage": "https://github.com/sandhawke/r-driver#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "debug": "^4.1.0",
+    "fs-extra": "^7.0.1",
+    "ldjson-stream": "^1.2.1"
+  }
+}
